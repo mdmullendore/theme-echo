@@ -1,0 +1,59 @@
+/**
+ *   Handle image transition
+ */
+#home{ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100vh;
+}
+.pic-1{
+  background: url(../img/ny.jpg) no-repeat center center fixed;
+}
+.pic-2{
+  background: url(../img/cannel.jpg) no-repeat center center fixed;
+}
+.pic-3{
+  background: url(../img/bear.jpg) no-repeat center center fixed;
+}
+.pic-4{
+  background: url(../img/sf_night.jpg) no-repeat center center fixed;
+}
+
+/**
+ *   Handle text
+ */
+
+.home-text-container{
+  position:absolute;
+  top: 20%;
+  left:50%;
+  width:90%;
+  text-align: center;
+  @media screen and (max-width:320px){
+    margin-left: -140px !important;
+  }
+}
+
+#home button{
+  margin-top:30px;
+  background-color: inherit;
+  border: 2px solid #FFFFFF;
+  color: #FFF;
+  font-weight:300;
+  padding: 10px 25px;
+  width: 275px;
+  font-size: 26px;
+  font-family: Raleway;
+  text-shadow: none;
+  cursor:pointer;
+  box-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  &:hover{
+    background-color:#FFF;
+    color:#444; 
+  }
+  &:focus{
+    outline:none;
+  }
+}
