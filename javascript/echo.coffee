@@ -34,7 +34,7 @@ jQuery ->
     $(".sub-links").animate({width : 'toggle'}, 600)
 
 
-  ## Hide Show Sections
+  ## Hide Show Sections --- rewrite in progress
   home = $('[data-section="home"]')
   travel = $('[data-section="travel"]')
   about = $('[data-section="about"]')
@@ -84,7 +84,7 @@ jQuery ->
     contact.hide()    
     blog.hide()
     
-  ## Home SlideShow
+  ## Home SlideShow  --- rewrite in progress
   setTimeout (->
     $('[data-home="img-slide"]').removeClass "pic-1", 500
     $('[data-home="img-slide"]').addClass "pic-2", 500
